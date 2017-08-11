@@ -443,6 +443,11 @@ and (max-device-width: 1024px){
 and (min-width : 414px)
 and (max-width : 736px) {
 
+  .enneagram-program-slider p span{
+		display: none;
+
+	}
+
   .div-block-2 {
     top: 74px;
     right: 10px;
