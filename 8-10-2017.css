@@ -1,6 +1,6 @@
 /* --- Desktop CSS --- */
 
-/* Quick Links Desktop Footer Begin2*/
+/* Quick Links Desktop Footer Begin*/
 #text-5 .textwidget a {
     font-size: 20px;
 }
@@ -442,6 +442,11 @@ and (max-device-width: 1024px){
   @media only screen
 and (min-width : 414px)
 and (max-width : 736px) {
+
+  .enneagram-program-slider p span{
+		display: none;
+
+	}
 
   .div-block-2 {
     top: 74px;
