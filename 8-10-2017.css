@@ -476,6 +476,11 @@ and (max-width : 736px) {
 and (min-device-width : 320px)
 and (max-device-width : 568px)  {
 
+  .enneagram-program-slider p span{
+    display: none;
+
+  }
+
   .calendartitle {
     text-align: center !important;
     font-size: 42px;
