@@ -443,6 +443,12 @@ and (max-device-width: 1024px){
 and (min-width : 414px)
 and (max-width : 736px) {
 
+  	.ui-tabs-nav li:nth-child(2){
+		padding-top:20px;
+		padding-bottom:20px;
+
+	}
+
   .enneagram-program-slider p span{
 		display: none;
 
@@ -475,6 +481,12 @@ and (max-width : 736px) {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px)  {
+
+  	.ui-tabs-nav li:nth-child(2){
+		padding-top:20px;
+		padding-bottom:20px;
+
+	}
 
   .enneagram-program-slider p span{
     display: none;
