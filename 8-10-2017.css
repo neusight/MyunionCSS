@@ -55,6 +55,13 @@ padding-top: 160px !important;
     bottom: 150px;
 }
 
+.plannedgivinghraphic { /* Planned giving circullar graphic */
+    width: 300px !important;
+    right: 200px;
+    float: right;
+    bottom: 150px;
+}
+
 .newslidertop { /* GenEd page banner graphic */
   height: 500px;
   background-image: url('https://myunion.edu/wf/images/banner.jpg');
