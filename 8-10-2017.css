@@ -56,10 +56,12 @@ padding-top: 160px !important;
 }
 
 .plannedgivinghraphic { /* Planned giving circullar graphic */
-    width: 300px !important;
-    right: 200px;
-    float: right;
-    bottom: 150px;
+  width: 300px !important;
+  float: right;
+  bottom: 150px;
+  position: absolute !important;
+  top: 20px;
+  left: 1247px !important;
 }
 
 .newslidertop { /* GenEd page banner graphic */
