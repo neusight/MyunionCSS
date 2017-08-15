@@ -56,7 +56,7 @@ padding-top: 160px !important;
 }
 
 .plannedgivinghraphic { /* Planned giving circullar graphic */
-    width: 199px !important;
+    width: 200px !important;
     float: right;
     bottom: 150px;
     position: absolute !important;
@@ -316,12 +316,13 @@ and (min-width : 1824px) {
   }
 
   .plannedgivinghraphic {
-      width: 300px !important;
-      float: right;
-      bottom: 87px;
-      left: 90px !important;
-      position: relative !important;
-      top: -90px;
+  width: 157px !important;
+  float: right;
+  bottom: 87px;
+  left: 85px !important;
+  position: relative !important;
+  top: -40px;
+
   }
 
 .sub-menu .sub-menu { /*Main Navigation drop-down style */
@@ -511,9 +512,13 @@ and (max-device-width : 568px)  {
     width: 172px !important;
     bottom: 52px;
     display: block !important;
-    top: -19px;
+    top: 30px;
     float: none;
     position: static;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    position: static !important;
     left: 0px;
 
 }
