@@ -508,6 +508,16 @@ and (max-width : 736px) {
 and (min-device-width : 320px)
 and (max-device-width : 568px)  {
 
+  .edusliderbottombottom span {
+    display: none;
+}
+
+.edusliderbottombottom h2 {
+    position: relative;
+    right: 0px;
+    line-height: 16px !important;
+}
+
   .plannedgivinghraphic {
     width: 172px !important;
     bottom: 52px;
