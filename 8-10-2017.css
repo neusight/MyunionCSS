@@ -56,7 +56,7 @@ padding-top: 160px !important;
 }
 
 .plannedgivinghraphic { /* Planned giving circullar graphic */
-  width: 300px !important;
+  width: 150px !important;
   float: right;
   bottom: 150px;
   position: absolute !important;
@@ -315,6 +315,15 @@ and (min-width : 1824px) {
   right: 100px;
   }
 
+  .plannedgivinghraphic {
+      width: 300px !important;
+      float: right;
+      bottom: 87px;
+      left: 90px !important;
+      position: relative !important;
+      top: -90px;
+  }
+
 .sub-menu .sub-menu { /*Main Navigation drop-down style */
   column-count: 2 !important;
   padding-bottom: 12px !important;
@@ -458,6 +467,13 @@ and (max-width : 736px) {
 
 	}
 
+  .plannedgivinghraphic {
+    width: 172px !important;
+    bottom: 52px;
+    display: block !important;
+    top: -19px;
+}
+
   .enneagram-program-slider p span{
 		display: none;
 
@@ -490,6 +506,17 @@ and (max-width : 736px) {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px)  {
+
+  .plannedgivinghraphic {
+    width: 172px !important;
+    bottom: 52px;
+    display: block !important;
+    top: -19px;
+    float: none;
+    position: static;
+    left: 0px;
+
+}
 
   	.ui-tabs-nav li:nth-child(2){
 		padding-top:20px;
