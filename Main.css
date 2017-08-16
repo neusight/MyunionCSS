@@ -7,6 +7,15 @@
 
 /* Quick links Desktop Footer End*/
 
+#courses .minimal-light .esg-filterbutton {
+    display: inherit !important;
+    padding: none !important;
+    border: 0.5px solid #c7c7c7 !important;
+    margin-bottom: 0px !important;
+    background: #ffffff !important;
+}
+
+
 a.buttongened.w-button.masters {
     height: 85px;
 }
