@@ -517,6 +517,10 @@ and (max-width : 736px) {
 and (min-device-width : 320px)
 and (max-device-width : 568px)  {
 
+  .cardWhite520 {
+    max-height: 100% !important;
+  }
+
   .edusliderbottombottom span {
     display: none;
 }
