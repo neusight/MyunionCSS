@@ -517,6 +517,14 @@ and (max-width : 736px) {
 and (min-device-width : 320px)
 and (max-device-width : 568px)  {
 
+  .wpb_content_element.int-tabs-css.commencement li {
+    border: solid;
+    border-width: 1px;
+    padding: 0px !important;
+    border-color: #bdbdbd;
+
+}
+
   .seanbutton {
     width: 100% !important;
 }
