@@ -517,6 +517,21 @@ and (max-width : 736px) {
 and (min-device-width : 320px)
 and (max-device-width : 568px)  {
 
+  	#locations .wpb_wrapper .col .divider{
+		margin-top:23px;
+	}
+
+	#locations h3 span{
+		margin-top:0px;
+		padding-top:13px;
+	}
+
+	#locations .col h3{
+		margin-top:31px;
+
+	}
+	
+
   .wpb_content_element.int-tabs-css.commencement li {
     border: solid;
     border-width: 1px;
