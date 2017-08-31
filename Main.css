@@ -334,6 +334,7 @@ and (min-width : 1824px) {
     }
 
 .postitpop { /* Healthcare Leadership post-it note graphic */
+  position: inherit !important;
   width: 200px !important;
   right: 100px;
   }
