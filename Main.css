@@ -64,6 +64,7 @@ padding-top: 160px !important;
 /*----------------------------------------------------------*/
 
 .postitpop { /* Healthcare Leadership post-it note graphic */
+    position: inherit;
     width: 300px !important;
     right: 200px;
     float: right;
