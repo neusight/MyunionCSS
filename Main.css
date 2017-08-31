@@ -537,6 +537,20 @@ and (max-width : 736px) {
 and (min-device-width : 320px)
 and (max-device-width : 568px)  {
 
+  .edusliderbottombottom.financial-resources .image-bg{ /* financial resources bottom banner */
+  width: 200%;
+  left: -310px;
+}
+
+.edusliderbottombottom.financial-resources .button a{ /* financial resources bottom banner BUTTON */
+      font-size: 12px !important;
+      height: 40px;
+      padding-top: inherit;
+      line-height: 40px !important;
+
+
+      }
+
   .postitpop.funding-future{
     top: 30px;
     left: 22px;
