@@ -537,7 +537,7 @@ and (max-width : 736px) {
 and (min-device-width : 320px)
 and (max-device-width : 568px)  {
 
-  .edusliderbottombottom.financial-resources .image-bg{ /* financial resources bottom banner */
+  .edusliderbottombottom.financial-resources .image-bg{ /* financial resources bottom banner BG */
   width: 200%;
   left: -310px;
 }
