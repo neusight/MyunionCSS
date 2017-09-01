@@ -301,10 +301,10 @@ padding-top: 160px !important;
 @media only screen
 and (min-width : 1824px) {
 
-  .student-services-slider.swiper-slide .image-bg {
+  .student-services-slider.swiper-slide .image-bg { /* Student Services main header banner */
   position: absolute;
   height: 150%;
-  top: -150px;
+  top: -90px;
   }
 
   .postitpop {
