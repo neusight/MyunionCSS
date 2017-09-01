@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-/* --- Desktop CSS ---  desktop tesdsting*/
-=======
-/* --- Desktop CSS --- new laptop integration - working file test - working filez.*/
->>>>>>> b09040c99d3372940a1d0221100602d9983d8aca
+/* --- Desktop CSS ---  desktop tesa*/
 
 .postitpop.funding-future{
 display: block;
@@ -304,6 +300,12 @@ padding-top: 160px !important;
 /*Large Desktop Displays Begin*/
 @media only screen
 and (min-width : 1824px) {
+
+  .student-services-slider.swiper-slide .image-bg {
+  position: absolute;
+  height: 150%;
+  top: -150px;
+  }
 
   .postitpop {
   position: inherit !important
