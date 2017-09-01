@@ -1,0 +1,879 @@
+/* --- Desktop CSS --- */
+
+.postitpop.funding-future{
+display: block;
+left: 100px;
+top: 0px
+}
+
+/* Quick Links Desktop Footer Begin*/
+#text-5 .textwidget a {
+    font-size: 20px;
+}
+
+/* Quick links Desktop Footer End*/
+
+#courses .minimal-light .esg-filterbutton {
+    display: inherit !important;
+    padding: 5px 15px !important;
+    border: 0.5px solid #c7c7c7 !important;
+    margin-bottom: 0px !important;
+    background: #ffffff !important;
+}
+
+
+a.buttongened.w-button.masters {
+    height: 85px;
+}
+
+.calendartitle {
+  text-align: center !important;
+  }
+
+.white-text{ /* White text in bottom banners on course pages */
+padding-top: 160px !important;
+}
+
+.esg-layout-masonry .esg-entry-media img { /* Essential Grid image Style */
+  width: inherit !important;
+}
+
+.wpb_row .span_12 > .col.padding-4-percent, .column-inner.padding-4-percent { /* Course page top paragraoh (next to image)*/
+  right: 35px;
+}
+
+.funding-your-future-block { /* Fundincg your future text block next to page's bottom banner */
+  padding-top: 50%;
+}
+
+.mobile-major-header .nectar-fancy-box { /* Mobile blue bar banner on course pages */
+    padding:0px!important;
+    max-height:460px;
+}
+
+.textblockundpic{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*remove for now .full-width-content.vc_row-fluid .vc_span3, .full-width-content.vc_row-fluid .vc_col-sm-3 { /* Funding Your Future section - bottom banner of pages
+  padding-top: 100px !important;
+} */
+
+/*----------------------------------------------------------*/
+
+.postitpop { /* Healthcare Leadership post-it note graphic */
+    position: inherit;
+    width: 300px !important;
+    right: 200px;
+    float: right;
+    bottom: 150px;
+}
+
+.plannedgivinghraphic { /* Planned giving circullar graphic */
+    width: 200px !important;
+    float: right;
+    bottom: 150px;
+    position: absolute !important;
+    top: 90px;
+    left: 1316px !important;
+}
+
+.newslidertop { /* GenEd page banner graphic */
+  height: 500px;
+  background-image: url('https://myunion.edu/wf/images/banner.jpg');
+  background-position: 60% 65%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+
+.newslidertopgened { /* Bachelors page GenEd Banner */
+  height: 400px;
+  background-image: url('https://myunion.edu/wf/images/banner.jpg');
+  background-position: 60% 65%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.buttongened { /* GenEd banner button */
+  display: block;
+  width: 200px;
+   padding-top: 14px;
+   padding-bottom: 40px;
+  height: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #327a3d;
+  -webkit-transition: background-color 400ms ease;
+  transition: background-color 400ms ease;
+  font-family: roboto, serif;
+  text-align: center;
+  color: white;
+}
+
+.buttongenedhcl { /* New Healthcare Leadership button */
+  display: block;
+  width: 200px;
+   padding-top: 14px;
+   padding-bottom: 40px;
+  height: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #4381C1;
+  -webkit-transition: background-color 400ms ease;
+  transition: background-color 400ms ease;
+  font-family: roboto, serif;
+  text-align: center;
+  color: white;
+}
+
+.buttongened:hover { /* GenEd banner button roll-over state */
+  border: 1px solid #327a3d;
+  background-color: #fff;
+  color: #327a3d;
+  width: 200px;
+  height: 30px;
+  padding-top: 14px;
+  padding-bottom: 40px;
+
+}
+
+.buttongenedhcl:hover { /* New Healthcare Leadership button roll-over state */
+  border: 2px solid #4381C1;
+  background-color: #fff;
+  color: #327a3d;
+  width: 200px;
+  height: 30px;
+  padding-top: 14px;
+  padding-bottom: 40px;
+
+}
+
+.heading { /* GenEd banner main title */
+  color: #fff;
+  font-size: 70px;
+  line-height: 70px;
+}
+
+.headinggened { /* Bachelors GenEd banner main title */
+  color: #fff;
+  font-size: 40px;
+  line-height: 70px;
+}
+
+.undertext { /* GenEd banner subtitle text */
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.undertextgened { /* Bachelors GenEd banner subtitle text */
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.div-block-2 { /* GenEd black opacity background behind banner text*/
+  position: relative;
+  top: 170px;
+  right: 384px;
+  width: 400px;
+  float: right;
+  background-color: rgba(0, 0, 0, .39);
+  font-family: 'Droid Serif', serif;
+}
+
+.div-block-2gened { /* Bachelors black opacity background behind  GenEd banner text */
+  position: relative;
+  top: 75px;
+  right: 84px;
+  width: 900px;
+  float: right;
+  background-color: rgba(0, 0, 0, .39);
+  font-family: 'Droid Serif', serif;
+}
+
+.heading.title { /* GenEd banner header title */
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+
+.heading.titlegened { /* Bachelors page GenEd banner title */
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+
+.testimonial_slider .image-icon.has-bg { /* GenEd testimonial slider image */
+    width: 100px;
+    height: 100px;
+}
+
+.testimonial_slider blockquote span.title { /* GenEd testimonial slider title */
+    font-size: 14px !important;
+    font-weight: 500;
+}
+
+.videogened {
+     width: 200px;
+     height: auto;
+}
+
+.div-block {
+  display: block;
+  height: 70px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.button-2gened { /* Bachelor's GenEd banner button */
+  display: block;
+  width: 200px;
+  padding-top: 14px;
+  padding-bottom: 40px;
+  height: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #327a3d;
+  -webkit-transition: background-color 400ms ease;
+  transition: background-color 400ms ease;
+  font-family: roboto, serif;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 250px;
+  left: 540px;
+}
+
+.button-2gened:hover { /* Bachelor's GenEd banner button hover-over state */
+  border: 1px solid #327a3d;
+  background-color: #fff;
+  color: #327a3d;
+  width: 200px;
+  height: 30px;
+  padding-top: 14px;
+  padding-bottom: 40px;
+}
+
+.buttondiv { /* Basic button div container */
+  height: 70px;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+}
+
+.heading.title {
+ padding-top: 5px;
+}
+
+/* GenEd Page Desktop Style End */
+
+/*----------------------------------------------------------*/
+
+/* Course Page Master Desktop Style Begin */
+
+.ptcoursestitle{
+   font-size: 4em !important;
+   padding-bottom: 20px !important;
+   line-height: 70px;
+   color: black !important;
+}
+
+/* Course Page Master Desktop Style End */
+
+/*----------------------------------------------------------*/
+
+/*Large Desktop Displays Begin*/
+@media only screen
+and (min-width : 1824px) {
+
+  .postitpop {
+  position: inherit !important
+}
+
+.button-2gened{ /* Bachelor's page GenEd banner button */
+  left:780px;
+}
+
+.headinggened{ /* Bachlor's page GenEd banner title */
+  padding-left: 15px;
+}
+
+}
+
+/*Large Desktop Displays End*/
+
+/*----------------------------------------------------------*/
+
+
+/* Small Desktops & Laptops */
+
+@media screen
+  and (min-width: 1200px)
+  and (max-width: 1600px){
+
+.postitpop.funding-future{
+  left: 50px;
+}
+
+    .funding-your-future-block { /* Fundincg your future text block next to page's bottom banner */
+
+    }
+
+.postitpop { /* Healthcare Leadership post-it note graphic */
+  position: inherit !important;
+  width: 200px !important;
+  right: 100px;
+  }
+
+  .plannedgivinghraphic {
+  width: 157px !important;
+  float: right;
+  bottom: 87px;
+  left: 85px !important;
+  position: relative !important;
+  top: -40px;
+
+  }
+
+.sub-menu .sub-menu { /*Main Navigation drop-down style */
+  column-count: 2 !important;
+  padding-bottom: 12px !important;
+  width: 32em !important;
+  column-gap: 0 !important;
+}
+
+.div-block-2gened {  /* Bachelors black opacity background behind  GenEd banner text */
+  top: 95px !important;
+  right: 0px !important;
+}
+
+.undertextgened { /* Bachelors GenEd banner subtitle text */
+  margin-left: 0px !important;
+}
+
+.button-2gened { /* Bachelor's page GenEd banner button */
+  display: block;
+  width: 200px;
+  padding-top: 14px;
+  padding-bottom: 40px;
+  height: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #327a3d;
+  -webkit-transition: background-color 400ms ease;
+  transition: background-color 400ms ease;
+  font-family: roboto, serif;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 250px;
+  left: 540px;
+}
+
+.div-block-2gened { /* Bachelors black opacity background behind  GenEd banner text */
+  position: relative;
+  top: 75px;
+  right: 84px;
+  width: 900px;
+  float: right;
+  background-color: rgba(0, 0, 0, .39);
+  font-family: 'Droid Serif', serif;
+}
+
+.div-block-2{
+  width: 600px !important;
+  right: 100px !important;
+}
+
+}
+
+/* Small Desktop End */
+
+/*----------------------------------------------------------*/
+
+
+/* Tablet Portrait & Landscape Style Begin*/
+
+@media screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px){
+
+  .postitpop.funding-future{
+    top: 30px;
+}
+
+  .postitpop {/* Healthcare Leadership post-it graphic */
+    width: 300px !important;
+    right:175px;
+    bottom: 27px;
+    float: none;
+  }
+
+.div-block-2 { /* GenEd black opacity background behind banner text */
+  right: 0px !important;
+  top: 115px !important;
+}
+
+.div-block-2gened { /* Bachelor's page GenEd black opacity background behind banner text */
+  top: 60px !important;
+  width: 500px
+}
+
+.heading { /*GenEd banner title text */
+  font-size: 45px !important;
+}
+
+.undertext { /* GenEd banner subtitle text */
+  font-size: 30px !important;
+}
+
+.undertextgened { /* Bachelors GenEd banner subtitle text */
+  font-size: 30px !important;
+  margin-top: 20px;
+}
+
+.newslidertop { /* GenEd page banner graphic */
+  height: 325px !important;
+}
+
+.newslidertopgened { /* Bachelors page GenEd Banner */
+  height: 325px !important;
+}
+
+.eg-harding-2-wrapper .esg-entry-media {
+  padding-left: 55px !important;
+}
+
+.button-2gened { /* Bachelor's GenEd banner button */
+  width: 100px;
+  height: 40px;
+  position: relative;
+  left: inherit;
+  top: 250px !important;
+  bottom: 356px !important;
+  float: right;
+  background-color: #327A34 !important;
+  right: 186px !important;
+  color: white !important;
+  padding: 5px !important;
+}
+
+.headinggened { /* Bachelor's page GenEd banner title */
+  line-height: 50px;
+  padding-left: 15px;
+}
+
+}
+
+/* Tablet Portrait & Landscape Style End*/
+
+/*----------------------------------------------------------*/
+
+
+/* iPhone 6 Plus Media Query Begin */
+
+  @media only screen
+and (min-width : 414px)
+and (max-width : 736px) {
+
+  	.ui-tabs-nav li:nth-child(2){
+		padding-top:20px;
+		padding-bottom:20px;
+
+	}
+
+  .plannedgivinghraphic {
+    width: 172px !important;
+    bottom: 52px;
+    display: block !important;
+    top: -19px;
+}
+
+  .enneagram-program-slider p span{
+		display: none;
+
+	}
+
+  .div-block-2 {
+    top: 74px;
+    right: 10px;
+    width: 400px;
+  }
+
+  .newslidertop { /* GenEd banner */
+    height: 250px
+  }
+
+  .heading { /*GenEd banner title */
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+}
+
+/* iPhone 6 Plus Media Query End */
+
+/*----------------------------------------------------------*/
+
+
+/* iPhone 5 Portrait and Landscape */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)  {
+
+  .edusliderbottombottom.financial-resources .image-bg{ /* financial resources bottom banner BG */
+  width: 200%;
+  left: -310px;
+}
+
+.edusliderbottombottom.financial-resources .button a{ /* financial resources bottom banner BUTTON */
+      font-size: 12px !important;
+      height: 40px;
+      padding-top: inherit;
+      line-height: 40px !important;
+
+
+      }
+
+  .postitpop.funding-future{
+    top: 30px;
+    left: 22px;
+}
+
+  	#locations .wpb_wrapper .col .divider{
+		margin-top:23px;
+	}
+
+	#locations h3 span{
+		margin-top:0px;
+		padding-top:13px;
+	}
+
+	#locations .col h3{
+		margin-top:31px;
+
+	}
+
+
+  .wpb_content_element.int-tabs-css.commencement li {
+    border: solid;
+    border-width: 1px;
+    padding: 0px !important;
+    border-color: #bdbdbd;
+
+}
+
+  .seanbutton {
+    width: 100% !important;
+}
+
+  .cardWhite520 {
+    max-height: 100% !important;
+  }
+
+  .edusliderbottombottom span {
+    display: none;
+}
+
+.edusliderbottombottom h2 {
+    position: relative;
+    right: 0px;
+    line-height: 16px !important;
+}
+
+  .plannedgivinghraphic {
+    width: 172px !important;
+    bottom: 52px;
+    display: block !important;
+    top: 30px;
+    float: none;
+    position: static;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    position: static !important;
+    left: 0px;
+
+}
+
+  	.ui-tabs-nav li:nth-child(2){
+		padding-top:20px;
+		padding-bottom:20px;
+
+	}
+
+  .enneagram-program-slider p span{
+    display: none;
+
+  }
+
+  .calendartitle {
+    text-align: center !important;
+    font-size: 42px;
+    right: 10px !important;
+    position: relative;
+}
+
+  .proff-studies-banner .content { /* professional studies banner text */
+      width: 67% !important;
+  }
+
+  .students-are-saying-green-banner {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+
+
+  .nectar-slider-wrap[data-full-width="true"][data-fullscreen="false"] .swiper-slide
+  .content h2, .nectar-slider-wrap[data-full-width="boxed-full-width"][data-fullscreen="false"]
+  .swiper-slide .content h2, .full-width-content .vc_span12 .nectar-slider-wrap[data-fullscreen="false"]
+  .swiper-slide .content h2 {
+    font-size: 40px !important;
+    margin-top: 7px;
+  }
+
+  .left-align-bullet-points{
+    text-align: left !important;
+  }
+
+.finder-heading-light{ /* Blue bar on image for mobile banner */
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.mobile-home-banner .content{ /* main mobile banner graphic */
+		bottom:auto;
+		right:auto;
+		margin-left:auto;
+		margin-right:auto;
+		top:262px !important;
+		position:absolute;
+		left:-45px;
+		padding-right:2px;
+		padding-left:2px;
+	}
+
+	.mobile-home-banner p span{
+		font-size:16px;
+
+	}
+
+  .mobile-home-banner h2{
+  		font-size: 50px !important;
+  	}
+
+
+  .white-text{ /* White text in bottom banners on course pages */
+  padding-top: 50px !important;
+  }
+
+  .funding-your-future-block { /* Fundincg your future text block next to page's bottom banner */
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+
+  .nectar-fancy-ul ul li .icon-default-style[class^="icon-"] { /* UL graphic line-height attribute */
+    line-height: 35px!important;
+}
+
+  .nectar-fancy-ul ul li .icon-default-style[class^="icon-"] { /* UL Graphic on course pages */
+    color: #327a3d !important;
+  }
+
+  .wpb_row .span_12 > .col.padding-4-percent, .column-inner.padding-4-percent { /* Course page top paragraoh (next to image)*/
+    right: 0px;
+  }
+
+  .courseheaderp { /* Course page intro paragraph (next to image) */
+    padding: 20px !important;
+}
+
+  .nectar-slider-wrap[data-full-width="false"] .swiper-slide .content h2, #boxed .swiper-slide .content h2 { /* Bottom banner on page */
+    font-size: 20px !important;
+  }
+
+  .postitpop { /* Healthcare Leadership post-it graphic */
+    width: 250px !important;
+    right: 28px;
+    float: none;
+    bottom: 20px;
+  }
+
+  .logoforp {
+    width: 80% !important;
+}
+
+.morph-main-menu-button { /* Mobile navigation hamburger icon */
+  padding-top: 0px !important;
+  margin-top: 15px !important;
+  }
+
+.underhp {
+  font-size: 10px;
+}
+
+.swiper-wrapper .swiper-slide-active .container .content p { /* Bottom banner of academic courses subtitle text */
+  font-size:14px !important;
+}
+
+.main-content .standard_section:nth-child(6) .divider:nth-child(1) {
+  visibility:visible;
+  height:30px !important;
+}
+
+.main-content .underhp p {
+  font-size:18px;
+  text-align:center !important;
+}
+
+.ptcoursestitle {
+  font-size: 2.5em !important;
+  line-height: normal;
+}
+
+.coursetitlehero {
+  display: block;
+  padding-left: 30px;
+  line-height: initial;
+}
+
+.coursetitleherosub {
+  padding-left: 30px;
+}
+
+.vc_separator.vc_separator_align_center h4 {
+  white-space: normal;
+}
+
+.newslidertop { /* GenEd banner */
+  height: 250px !important;
+  background-position-x: 52% !important;
+}
+
+.heading.title { /* GenEd banner title text */
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+  font-family: Roboto, sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 25px !important;
+  line-height: 65px;
+}
+
+.undertext { /* GenEd banner subtitle text */
+  margin-top: -25px;
+  padding-bottom: 25px !important;
+}
+
+.div-block-2 {
+  position: relative;
+  top: 80px !important;
+  right: 0px !important;
+  width: auto !important;
+  float: right !important;
+  background-color: rgba(0, 0, 0, .39);
+  font-family: 'Droid Serif', serif;
+}
+
+.exploregenedcourses {
+  text-align: center !important;
+}
+
+
+.nectar-slider-wrap[data-full-width="true"][data-fullscreen="false"]
+.swiper-slide .content p, .nectar-slider-wrap
+[data-full-width="boxed-full-width"][data-fullscreen="false"] .swiper-slide
+.content p, .full-width-content .vc_span12 .nectar-slider-wrap
+[data-fullscreen="false"] .swiper-slide .content p {
+
+  display: block !important;
+  font-size: 14px !important;
+  line-height: 25px !important;
+}
+
+.nectar-slider-wrap {
+  margin-top: 20px !important;
+}
+
+.nectar-fancy-ul ul li {
+  padding-bottom: 0px;
+}
+
+.main-content ul li {
+  padding-top: 5px;
+}
+
+#text-5 .textwidget {
+  display: block !important;
+}
+
+.newslidertopgened {
+  height: 250px !important;
+  background-position-x: 52% !important;
+}
+
+.headinggened.titlegened {
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+  font-family: Roboto, sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 25px;
+  padding-top: 15px;
+}
+
+.undertextgened {
+  margin-top: 0px;
+  padding-bottom: 25px !important;
+  font-size: 16px;
+}
+
+.div-block-2gened {
+  position: relative;
+  top: 45px !important;
+  right: 0px !important;
+  width: auto !important;
+  float: right !important;
+  background-color: rgba(0, 0, 0, .39);
+  font-family: 'Droid Serif', serif;
+}
+
+.exploregenedcourses {
+  text-align: center !important;
+}
+
+.button-2gened {
+  position: relative;
+  left: inherit;
+  top: 208px !important;
+  float: right;
+  background-color: #327A34 !important;
+  right: 20px !important;
+  color: white !important;
+  padding: 5px !important;
+  width: 100px;
+  height: 35px;
+}
+
+}
+
+/* iPhone 5 Phone Media Query End */
+
+/*----------------------------------------------------------*/
