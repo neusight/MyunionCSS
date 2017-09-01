@@ -1,30 +1,11 @@
-<<<<<<< HEAD
-/* --- Desktop CSS ---  desktop tesdsting*/
-=======
-/* --- Desktop CSS --- new laptop integration - working file test - working filez.*/
->>>>>>> b09040c99d3372940a1d0221100602d9983d8aca
-
-.postitpop.funding-future{
-display: block;
-left: 100px;
-top: 0px
-}
+/* --- Desktop CSS --- */
 
 /* Quick Links Desktop Footer Begin*/
 #text-5 .textwidget a {
     font-size: 20px;
 }
 
-/* Quick links Desktop Footer End*/
-
-#courses .minimal-light .esg-filterbutton {
-    display: inherit !important;
-    padding: 5px 15px !important;
-    border: 0.5px solid #c7c7c7 !important;
-    margin-bottom: 0px !important;
-    background: #ffffff !important;
-}
-
+/* Quick links Desktop Footer End-*/
 
 a.buttongened.w-button.masters {
     height: 85px;
@@ -68,20 +49,10 @@ padding-top: 160px !important;
 /*----------------------------------------------------------*/
 
 .postitpop { /* Healthcare Leadership post-it note graphic */
-    position: inherit;
     width: 300px !important;
     right: 200px;
     float: right;
     bottom: 150px;
-}
-
-.plannedgivinghraphic { /* Planned giving circullar graphic */
-    width: 200px !important;
-    float: right;
-    bottom: 150px;
-    position: absolute !important;
-    top: 90px;
-    left: 1316px !important;
 }
 
 .newslidertop { /* GenEd page banner graphic */
@@ -305,10 +276,6 @@ padding-top: 160px !important;
 @media only screen
 and (min-width : 1824px) {
 
-  .postitpop {
-  position: inherit !important
-}
-
 .button-2gened{ /* Bachelor's page GenEd banner button */
   left:780px;
 }
@@ -330,28 +297,13 @@ and (min-width : 1824px) {
   and (min-width: 1200px)
   and (max-width: 1600px){
 
-.postitpop.funding-future{
-  left: 50px;
-}
-
     .funding-your-future-block { /* Fundincg your future text block next to page's bottom banner */
 
     }
 
 .postitpop { /* Healthcare Leadership post-it note graphic */
-  position: inherit !important;
   width: 200px !important;
   right: 100px;
-  }
-
-  .plannedgivinghraphic {
-  width: 157px !important;
-  float: right;
-  bottom: 87px;
-  left: 85px !important;
-  position: relative !important;
-  top: -40px;
-
   }
 
 .sub-menu .sub-menu { /*Main Navigation drop-down style */
@@ -416,10 +368,6 @@ and (min-width : 1824px) {
 @media screen
 and (min-device-width: 768px)
 and (max-device-width: 1024px){
-
-  .postitpop.funding-future{
-    top: 30px;
-}
 
   .postitpop {/* Healthcare Leadership post-it graphic */
     width: 300px !important;
@@ -495,19 +443,6 @@ and (max-device-width: 1024px){
 and (min-width : 414px)
 and (max-width : 736px) {
 
-  	.ui-tabs-nav li:nth-child(2){
-		padding-top:20px;
-		padding-bottom:20px;
-
-	}
-
-  .plannedgivinghraphic {
-    width: 172px !important;
-    bottom: 52px;
-    display: block !important;
-    top: -19px;
-}
-
   .enneagram-program-slider p span{
 		display: none;
 
@@ -540,87 +475,6 @@ and (max-width : 736px) {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px)  {
-
-  .edusliderbottombottom.financial-resources .image-bg{ /* financial resources bottom banner BG */
-  width: 200%;
-  left: -310px;
-}
-
-.edusliderbottombottom.financial-resources .button a{ /* financial resources bottom banner BUTTON */
-      font-size: 12px !important;
-      height: 40px;
-      padding-top: inherit;
-      line-height: 40px !important;
-
-
-      }
-
-  .postitpop.funding-future{
-    top: 30px;
-    left: 22px;
-}
-
-  	#locations .wpb_wrapper .col .divider{
-		margin-top:23px;
-	}
-
-	#locations h3 span{
-		margin-top:0px;
-		padding-top:13px;
-	}
-
-	#locations .col h3{
-		margin-top:31px;
-
-	}
-
-
-  .wpb_content_element.int-tabs-css.commencement li {
-    border: solid;
-    border-width: 1px;
-    padding: 0px !important;
-    border-color: #bdbdbd;
-
-}
-
-  .seanbutton {
-    width: 100% !important;
-}
-
-  .cardWhite520 {
-    max-height: 100% !important;
-  }
-
-  .edusliderbottombottom span {
-    display: none;
-}
-
-.edusliderbottombottom h2 {
-    position: relative;
-    right: 0px;
-    line-height: 16px !important;
-}
-
-  .plannedgivinghraphic {
-    width: 172px !important;
-    bottom: 52px;
-    display: block !important;
-    top: 30px;
-    float: none;
-    position: static;
-    left: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    position: static !important;
-    left: 0px;
-
-}
-
-  	.ui-tabs-nav li:nth-child(2){
-		padding-top:20px;
-		padding-bottom:20px;
-
-	}
 
   .enneagram-program-slider p span{
     display: none;
