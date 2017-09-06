@@ -1,5 +1,81 @@
 /* --- Desktop CSS ---  desktop tesa*/
 
+/*footer begin code */
+
+.footer2text.link {
+  margin: 0px 40px 40px 0px;
+  padding-right: 40px;
+  border-right: 1px solid #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.footer2text.link:hover {
+  color: #ffd100;
+}
+
+.footer2text.link.give {
+  padding-right: 40px;
+  padding-left: 40px;
+  border-left: 1px solid #fff;
+  border-right-color: #fff;
+  font-size: 20px;
+}
+
+.footer2text.link.give:hover {
+  color: #ffd100;
+}
+
+.fwrapper {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footertext2 {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.footerfooterbtn {
+  display: block;
+  width: 100px;
+  height: 45px;
+  margin-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  background-color: #4381c1;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  text-align: center;
+}
+
+.footerfooterbtn:hover {
+  padding-top: 9px;
+  padding-bottom: 10px;
+  border: 2px solid #4381c1;
+  background-color: #fff;
+  color: #4381c1;
+}
+
+/*DO NOT TOUCH */
+
+#footer-widgets .col:first-child {
+    width: 100% !important;
+    display: block !important;
+}
+
+
+#footer-widgets .col {
+    display: none;
+}
+
+/*DO NOT TOUCH END */
+
+/* footer end of code */
+
+
 .postitpop.funding-future{
 display: block;
 left: 100px;
@@ -542,6 +618,53 @@ and (max-width : 736px) {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px)  {
+
+  /* footer code begin */
+
+#footer-widgets .container .col {
+  margin-bottom: 0px !important;
+}
+
+#footer-outer .row {
+padding-bottom: 0px !important;
+}
+
+
+.textwidget {
+   margin-left: 8px !important;
+   margin-right: 0px !important;
+}
+
+.footer2text.link {
+    margin-right: 2px;
+    margin-left: 0px;
+    padding-right: 5px;
+    padding-left: 1px;
+    font-size: 14px;
+}
+
+  .footer2text.link.give {
+    margin-right: 5px;
+    margin-left: 0px;
+    padding-right: 5px;
+    padding-left: 4px;
+    font-size: 14px;
+}
+
+  .fwrapper {
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    clear: none;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .footertext2 {
+    margin-top: 50px;
+  }
+
+/* footer code end */
 
   .edusliderbottombottom.financial-resources .image-bg{ /* financial resources bottom banner BG */
   width: 200%;
