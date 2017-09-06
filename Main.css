@@ -1,4 +1,4 @@
-/* --- Desktop CSS ---  desktop tesa*/
+/* --- Desktop CSS --- */
 
 /*footer begin code */
 
@@ -498,6 +498,16 @@ and (min-width : 1824px) {
 @media screen
 and (min-device-width: 768px)
 and (max-device-width: 1024px){
+
+  .footer2text.link { /* New footer code */
+    margin: 0px 14px 14px 0px;
+    padding-right: 14px;
+  }
+
+  .footer2text.link.give { /* New footer code */
+    padding-right: 14px;
+    padding-left: 14px;
+  }
 
   .postitpop.funding-future{
     top: 30px;
