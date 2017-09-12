@@ -638,52 +638,12 @@ and (max-width : 736px) {
 and (min-device-width : 320px)
 and (max-device-width : 568px)  {
 
-  /* footer code begin */
-
-#footer-widgets .container .col {
-  margin-bottom: 0px !important;
-}
-
-#footer-outer .row {
-padding-bottom: 0px !important;
-}
-
-
-.textwidget {
-   margin-left: 8px !important;
-   margin-right: 0px !important;
-}
-
-.footer2text.link {
-    margin-right: 2px;
-    margin-left: 0px;
-    padding-right: 5px;
-    padding-left: 1px;
-    font-size: 14px;
-}
-
-  .footer2text.link.give {
-    margin-right: 5px;
-    margin-left: 0px;
-    padding-right: 5px;
-    padding-left: 4px;
-    font-size: 14px;
-}
-
-  .fwrapper {
-    display: block;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    clear: none;
-    text-align: center;
-    margin-top: 50px;
-  }
-  .footertext2 {
-    margin-top: 50px;
-  }
-
-/* footer code end */
+  .givingbacktabs .cta-button a {   	 /* Giving back button on Giving Back page */
+         position: relative;
+         width: 124px;
+         left: auto;
+         right: 35px;
+     }
 
   .edusliderbottombottom.financial-resources .image-bg{ /* financial resources bottom banner BG */
   width: 200%;
