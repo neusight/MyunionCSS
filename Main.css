@@ -1,5 +1,14 @@
 /* --- Desktop CSS --- */
 
+/* Apply Now Button */
+#header-secondary-outer .apply-now a{
+  color: #ffcf01 !important;
+  font-weight: 600;
+
+	}
+
+/* Apply Now Button End */
+
 /*footer begin code */
 
 .footer2text.link {
@@ -499,6 +508,16 @@ and (min-width : 1824px) {
 and (min-device-width: 768px)
 and (max-device-width: 1024px){
 
+.givingbacktabs.wpb_content_element .wpb_tabs_nav li {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.wpb_tabs_nav li.cta-button {
+    right: 140px !important;
+    top: -47px !important;
+}
+
   #footer-widgets .container .col.span_4 { /* New footer code */
       margin-bottom: -30px;
       margin-top: 30px;
@@ -592,6 +611,11 @@ and (max-device-width: 1024px){
 and (min-width : 414px)
 and (max-width : 736px) {
 
+.givingbacktabs.wpb_content_element .wpb_tabs_nav li {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
   	.ui-tabs-nav li:nth-child(2){
 		padding-top:20px;
 		padding-bottom:20px;
@@ -638,12 +662,98 @@ and (max-width : 736px) {
 and (min-device-width : 320px)
 and (max-device-width : 568px)  {
 
+.nectar-slider-wrap[data-fullscreen="false"] .swiper-slide .button a { /*main banner mobile buttons */
+    font-size: 14px !important;
+    padding: 12.3px 14px;
+}
+
+.morph-main-menu-button { /* Mobile navigation hamburger icon */
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    margin-left: 5px !important;
+}
+
+.morph-main-menu-button-wrapper::before {
+
+    content: "Menu"
+}
+
+.swiper-slide.edusliderbottombottom.alumniassoc.swiper-slide-visible.swiper-slide-active.no-transform h2 {
+    font-size: 34px !important;
+    margin-top: 0px;
+}
+
+#presidents-alumni .eg-harding-6-element-0 {
+    font-size: 18px !important;
+}
+
+#presidents-alumni .esg-entry-media.esg-pressback {
+    padding: 25px;
+}
+
+.eg-harding-6-wrapper .esg-entry-media {
+    padding: 25px 25px 0px 25px;
+}
+
+.givingbacktabs.wpb_content_element .wpb_tabs_nav li {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
   .givingbacktabs .cta-button a {   	 /* Giving back button on Giving Back page */
          position: relative;
          width: 124px;
          left: auto;
          right: 35px;
      }
+
+
+  /* footer code begin */
+
+#footer-widgets .container .col {
+  margin-bottom: 0px !important;
+}
+
+#footer-outer .row {
+padding-bottom: 0px !important;
+}
+
+
+.textwidget {
+   margin-left: 8px !important;
+   margin-right: 0px !important;
+}
+
+.footer2text.link {
+    margin-right: 2px;
+    margin-left: 0px;
+    padding-right: 5px;
+    padding-left: 1px;
+    font-size: 14px;
+}
+
+  .footer2text.link.give {
+    margin-right: 5px;
+    margin-left: 0px;
+    padding-right: 5px;
+    padding-left: 4px;
+    font-size: 14px;
+}
+
+  .fwrapper {
+    display: block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    clear: none;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .footertext2 {
+    margin-top: 50px;
+  }
+
+/* footer code end */
 
   .edusliderbottombottom.financial-resources .image-bg{ /* financial resources bottom banner BG */
   width: 200%;
@@ -828,11 +938,6 @@ and (max-device-width : 568px)  {
   .logoforp {
     width: 80% !important;
 }
-
-.morph-main-menu-button { /* Mobile navigation hamburger icon */
-  padding-top: 0px !important;
-  margin-top: 15px !important;
-  }
 
 .underhp {
   font-size: 10px;
