@@ -1,5 +1,27 @@
 /* --- Desktop CSS --- */
 
+.card{
+-webkit-box-shadow: 5px 5px 4px 1px #C9C9C9;
+box-shadow: 5px 5px 4px 1px #C9C9C9;
+}
+
+.insteffectbtn a.nectar-button.large.accent-color.tilt {
+    height: 80px;
+    padding: 5% 10% 5% 20%;
+}
+
+	.studentloansboxx{
+		background-color: white;
+		box-shadow: 0px 5px 2px #c9c9c9;;
+
+	}
+
+
+.edusliderbottombottom.unionleadership p {
+    padding-left: 395px;
+}
+
+
 /* Apply Now Button */
 #header-secondary-outer .apply-now a{
   color: #ffcf01 !important;
@@ -508,6 +530,130 @@ and (min-width : 1824px) {
 and (min-device-width: 768px)
 and (max-device-width: 1024px){
 
+	.studentloansboxx{
+		background-color: white;
+		box-shadow: 0px 5px 2px #c9c9c9;;
+
+	}
+
+
+/*square fix
+	.main-content .dark .col .column_container{
+		box-sizing:border-box;
+		margin-bottom:177px;
+		min-height auto;
+		max-height: 714px;
+	}
+
+*/
+
+.wpb_text_column.wpb_content_element.doctoraldegreebuttonss { /*Doctoral buttons */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    margin-top: 50px;
+}
+
+.vc_separator.vc_separator_align_center h4 {
+    padding: 0px !important;
+}
+
+.funding-your-future-block {
+    padding-top: 5%;
+}
+
+.wpb_text_column.wpb_content_element.students-are-saying-green-banner {
+    padding-bottom: 5%;
+}
+
+.swiper-slide.edusliderbottombottom.swiper-slide-visible.swiper-slide-active.no-transform p {
+    font-size: 24px !important;
+}
+
+.wpb_row .span_12 > .col.padding-4-percent, .column-inner.padding-4-percent {
+    right: 0px;
+}
+
+.nectar-fancy-ul ul li .icon-default-style[class^="icon-"] {
+    color: #327a3d !important;
+}
+
+.vc_col-sm-3.elementary-education-left-col.wpb_column.column_container.col.padding-4-percent.instance-10 {
+    right: 0px;
+}
+
+.vc_col-sm-9.cardGrey.elementary-education-right-col.wpb_column.column_container.col.padding-4-percent.instance-11 {
+    right: 0px;
+}
+
+.white-text {
+    padding-top: 0px !important;
+}
+
+.union-leadership-name { /* Union Leadership page */
+    margin-top: -50px;
+}
+
+.wpb_text_column.wpb_content_element.locations-title-text {
+    margin-top: 30px;
+}
+
+.morph-main-menu-button { /* Mobile navigation hamburger icon */
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    margin-left: 5px !important;
+}
+
+.morph-main-menu-button-wrapper::before {
+
+    content: "Menu";
+    color: black;
+}
+
+
+/* mobile nav background edits BEGIN - - - - */
+
+	.morph-main-wrapper-active .morph-main-wrapper-inner .morph-main .morph-menu-wrapper-active .morph-by-bonfire #menu-mobile-menu .menu-item .sub-menu .menu-item .sub-menu .menu-item{
+		background-color:rgba(249,249,249,0.62) !important;
+		border-bottom-width:1px !important;
+	}
+
+	.menusubitemsub{
+
+		padding-left:21px !important;
+		border-bottom-style:solid !important;
+		border-bottom-color:#dddddd !important;
+	}
+
+	.morph-main-wrapper-active .morph-main-wrapper-inner .morph-main .morph-menu-wrapper-active .morph-by-bonfire #menu-mobile-menu > .menu-item > .sub-menu > .menu-item{
+		border-width:1px !important;
+	}
+
+	.menusubitemone{
+		border-color:rgba(118,118,118,0.12) !important;
+		background-color:#ffffff;
+		border-style:solid !important;
+	}
+
+
+/* mobile nav background edits END - - - - */
+
+
+.edusliderbottombottom.unionleadershipmobile p {
+    display: none;
+}
+
+
+.wpb_row .span_12 > .col.padding-1-percent, .wpb_row .span_12 > .col.padding-2-percent, .column-inner.padding-1-percent, .column-inner.padding-2-percent {
+    padding: 0% !important;
+}
+
+.edusliderbottombottom.givingback .content {
+    left: 350px;
+}
+
 .givingbacktabs.wpb_content_element .wpb_tabs_nav li {
     margin-bottom: 20px;
     padding: 10px;
@@ -535,7 +681,13 @@ and (max-device-width: 1024px){
 
   .postitpop.funding-future{
     top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0px;
+    right: 0px;
+    /* display: inline-block; */
 }
+
 
   .postitpop {/* Healthcare Leadership post-it graphic */
     width: 300px !important;
@@ -656,11 +808,72 @@ and (max-width : 736px) {
 /*----------------------------------------------------------*/
 
 
-/* iPhone 5 Portrait and Landscape */
+/* iPhone 5 Portrait and Landscape --------------------------------------------------------------------------------------------------------- */
 
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px)  {
+
+.card {
+    max-height: 100% !important;
+}
+
+.major-title.articulation p {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.major-title p {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.edusliderbottombottom.unionleadershipmobile p {
+    display: none;
+}
+
+
+
+.wpb_row .span_12 > .col.padding-1-percent, .wpb_row .span_12 > .col.padding-2-percent, .column-inner.padding-1-percent, .column-inner.padding-2-percent {
+    padding: 0% !important;
+}
+
+.edusliderbottombottom.givingback h2 {
+    left: 20px;
+}
+
+
+/* mobile nav background edits BEGIN - - - - */
+
+	.morph-main-wrapper-active .morph-main-wrapper-inner .morph-main .morph-menu-wrapper-active .morph-by-bonfire #menu-mobile-menu .menu-item .sub-menu .menu-item .sub-menu .menu-item{
+		background-color:rgba(249,249,249,0.62) !important;
+		border-bottom-width:1px !important;
+	}
+
+	.menusubitemsub{
+
+		padding-left:21px !important;
+		border-bottom-style:solid !important;
+		border-bottom-color:#dddddd !important;
+	}
+
+	.morph-main-wrapper-active .morph-main-wrapper-inner .morph-main .morph-menu-wrapper-active .morph-by-bonfire #menu-mobile-menu > .menu-item > .sub-menu > .menu-item{
+		border-width:1px !important;
+	}
+
+	.menusubitemone{
+		border-color:rgba(118,118,118,0.12) !important;
+		background-color:#ffffff;
+		border-style:solid !important;
+	}
+
+
+/* mobile nav background edits END - - - - */
+
+
+.sub-menu .sub-menu{
+		column-count: 1 !important;
+}
 
 .nectar-slider-wrap[data-fullscreen="false"] .swiper-slide .button a { /*main banner mobile buttons */
     font-size: 14px !important;
@@ -675,7 +888,8 @@ and (max-device-width : 568px)  {
 
 .morph-main-menu-button-wrapper::before {
 
-    content: "Menu"
+    content: "Menu";
+    color: black;
 }
 
 .swiper-slide.edusliderbottombottom.alumniassoc.swiper-slide-visible.swiper-slide-active.no-transform h2 {
