@@ -1,5 +1,10 @@
 /* --- Desktop CSS --- */
 
+
+.int-tabs-css.commencement.insteffectiveness{
+display: none;
+}
+
 .card{
 -webkit-box-shadow: 5px 5px 4px 1px #C9C9C9;
 box-shadow: 5px 5px 4px 1px #C9C9C9;
@@ -529,6 +534,59 @@ and (min-width : 1824px) {
 @media screen
 and (min-device-width: 768px)
 and (max-device-width: 1024px){
+
+.creativelinksroww{
+    display: none;
+}
+
+
+.edusliderbottombottom.financial-resources .image-bg {
+    background-position: -300px 0px;
+}
+
+.mobile-major-header.ppsc .nectar-fancy-box .box-bg{
+		background-position: 0px -70px;
+	}
+
+.mobile-major-header.humanitiesculture .nectar-fancy-box .box-bg{
+		background-position: 0px -120px;
+	}
+
+.mobile-major-header.ethicalcreativeleadership .nectar-fancy-box .box-bg{
+		background-position: 0px -30px;
+	}
+
+.mobile-major-header.literaturewriting .nectar-fancy-box .box-bg{
+		background-position: 0px -30px;
+	}
+
+.mobile-major-header.lpps .nectar-fancy-box .box-bg{
+		background-position: 0px -30px;
+	}
+
+.mobile-major-header.healthcareleadership .nectar-fancy-box .box-bg{
+		background-position: 0px -300px;
+	}
+
+.mobile-major-header.creativitystudies .nectar-fancy-box .box-bg{
+		background-position: 0px -30px;
+	}
+
+.mobile-major-header.cmhc .nectar-fancy-box .box-bg{
+		background-position: 0px -30px;
+	}
+
+.mobile-major-header.secondaryeducation .nectar-fancy-box .box-bg{
+		background-position: 0px -30px;
+	}
+
+.mobile-major-header.psychology .nectar-fancy-box .box-bg{
+		background-position: 0px -30px;
+	}
+
+	.mobile-major-header.orgleadership .nectar-fancy-box .box-bg{
+		background-position: 0px -42px;
+	}
 
 	.studentloansboxx{
 		background-color: white;
