@@ -1,5 +1,19 @@
 /* --- Desktop CSS --- */
 
+/* FOP Agreement Button */
+a.buttongened.w-button.fop {
+    margin-left: 55px;
+}
+
+/* - FOP Partnership Agreement Image - */
+img.img-with-animation.partnershipagreementimage-fop {
+    width: 450px;
+    margin-right: 10px
+}
+
+.presidentsbanner .image-bg {
+    background-position: 0px 5px !Important;
+}
 
 .int-tabs-css.commencement.insteffectiveness{
 display: none;
@@ -535,7 +549,15 @@ and (min-width : 1824px) {
 and (min-device-width: 768px)
 and (max-device-width: 1024px){
 
-.creativelinksroww{
+/* - FOP Partnership Agreement Image - */
+img.img-with-animation.partnershipagreementimage-fop {
+    margin-right: auto;
+}
+
+a.buttongened.w-button.fop {
+    margin-left: auto;
+	}
+.creativelinksroww {
     display: none;
 }
 
