@@ -442,7 +442,7 @@ and (min-width : 1824px) {
 }
 
 .button-2gened{ /* Bachelor's page GenEd banner button */
-  left:780px;
+  left: 770px;
 }
 
 .headinggened{ /* Bachlor's page GenEd banner title */
@@ -461,6 +461,8 @@ and (min-width : 1824px) {
 @media screen
   and (min-width: 1200px)
   and (max-width: 1600px){
+
+
 
 .postitpop.funding-future{
   left: 50px;
@@ -494,8 +496,8 @@ and (min-width : 1824px) {
 }
 
 .div-block-2gened {  /* Bachelors black opacity background behind  GenEd banner text */
-  top: 95px !important;
-  right: 0px !important;
+  top: 70px !important;
+  right: 60px !important;
 }
 
 .undertextgened { /* Bachelors GenEd banner subtitle text */
@@ -518,13 +520,13 @@ and (min-width : 1824px) {
   color: white;
   position: relative;
   top: 250px;
-  left: 540px;
+  left: 633px;
 }
 
 .div-block-2gened { /* Bachelors black opacity background behind  GenEd banner text */
   position: relative;
   top: 75px;
-  right: 84px;
+  right: 60px;
   width: 900px;
   float: right;
   background-color: rgba(0, 0, 0, .39);
@@ -536,9 +538,25 @@ and (min-width : 1824px) {
   right: 100px !important;
 }
 
+.headinggened {
+  margin-left: 10px;
+}
+
+
+
 }
 
 /* Small Desktop End */
+
+
+@media screen and (max-width: 1366px){
+
+  .button-2gened {
+   left: 517px;
+  }
+
+
+}
 
 /*----------------------------------------------------------*/
 
@@ -1369,7 +1387,7 @@ padding-bottom: 0px !important;
 .button-2gened {
   position: relative;
   left: inherit;
-  top: 208px !important;
+  top: 205px !important;
   float: right;
   background-color: #327A34 !important;
   right: 20px !important;
