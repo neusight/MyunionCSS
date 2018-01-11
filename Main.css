@@ -1,5 +1,36 @@
 /* --- Desktop CSS --- */
 
+/* Directory Button CSS */
+
+.btn-floating.btn-large {
+    width: 58.5px !important;
+    height: 59.5px !important;
+}
+
+.btn-floating {
+background-color: #ffffff !important;
+}
+
+.btn-floating i {
+    font-size: 4.4rem !important;
+    color: #ffcf01 !important;
+}
+
+.btn-floating.btn-large i{
+    line-height: 56px !important;
+    position: relative;
+    left: -6px;
+}
+
+
+p.directorytextbtn {
+    color: #ffcf01;
+    margin-left: -9px;
+    text-shadow: 1px 1px 1px grey;
+}
+
+/* Directory code end */
+
 /* FOP Agreement Button */
 a.buttongened.w-button.fop {
     margin-left: 55px;
@@ -854,12 +885,29 @@ a.buttongened.w-button.fop {
 
 /*----------------------------------------------------------*/
 
+/*iPhone 8 Media Query Begin*/
+
+  @media only screen
+and (min-width : 375px)
+and (max-width : 667px) {
+
+p.directorytextbtn {
+    margin-left: 0px;
+    font-size: 12px;
+}
+}
+/*iPhone 8 Media Query End*/
 
 /* iPhone 6 Plus Media Query Begin */
 
   @media only screen
 and (min-width : 414px)
 and (max-width : 736px) {
+
+p.directorytextbtn {
+    margin-left: 0px !important;
+    font-size: 12px !important;
+}
 
 .givingbacktabs.wpb_content_element .wpb_tabs_nav li {
     margin-bottom: 20px;
