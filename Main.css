@@ -1,5 +1,54 @@
 /* --- Desktop CSS --- */
 
+/*-------------MENU BUTTON ADDER --------------------------*/
+
+#menu-item-43276 {
+    margin-top: 30px;
+}
+
+.applynowbutn {
+	float: left;
+	text-align: center;
+	background-color: #4381C1;
+	margin-left: 1px;
+	margin-right: 1px;
+	width: 50%;
+	clear: none;
+	height: 30px;
+	padding-top: 5px;
+        color: white;
+}
+.requestinfobtn {
+	width: 48%;
+	float: right;
+	text-align: center;
+	background-color: #4381C1;
+	margin-left: 1px;
+	margin-right: 1px;
+	clear: none;
+	height: 30px;
+	padding-top: 5px;
+        color: white;
+}
+.textwithin {
+}
+
+.sectionn {
+    background-color: #4381C1;
+    color: #FFFFFF;
+    width: 100%;
+    margin-top: -475px;
+    margin-left: -3px;
+    /* margin-right: auto; */
+}
+
+/* ---MENU BUTTON ADDER DONE --- */
+
+.postitpop.hwel {
+    bottom: -20px !important;
+    margin-top: -191px;
+}
+
 /* Directory Button CSS */
 
 .btn-floating.btn-large {
@@ -493,6 +542,9 @@ and (min-width : 1824px) {
   and (min-width: 1200px)
   and (max-width: 1600px){
 
+.postitpop.hwel {
+  margin-top: -138px;
+}
 
 
 .postitpop.funding-future{
@@ -574,7 +626,6 @@ and (min-width : 1824px) {
 }
 
 
-
 }
 
 /* Small Desktop End */
@@ -582,6 +633,9 @@ and (min-width : 1824px) {
 
 @media screen and (max-width: 1366px){
 
+.spacerr {
+    height: 78px !important;
+}
   .button-2gened {
    left: 517px;
   }
@@ -592,11 +646,26 @@ and (min-width : 1824px) {
 /*----------------------------------------------------------*/
 
 
+
+
 /* Tablet Portrait & Landscape Style Begin*/
 
 @media screen
 and (min-device-width: 768px)
 and (max-device-width: 1024px){
+
+.postitpop.hwel {
+    width: 65% !important;
+    opacity: 1 !important;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    right: 0px;
+    margin-top: -78px;
+    left: 0px;
+    margin-bottom: 17px !important;
+}
+
 
 /* - FOP Partnership Agreement Image - */
 img.img-with-animation.partnershipagreementimage-fop {
@@ -891,6 +960,20 @@ a.buttongened.w-button.fop {
 and (min-width : 375px)
 and (max-width : 667px) {
 
+
+.postitpop.hwel {
+    margin-top: -72px;
+    margin-bottom: 27px !important;
+    right: -23px !important;
+}
+
+.fixed-action-btn.horizontal {
+    padding: 0 0 0 15px;
+    bottom: 60px;
+    left: 30px;
+    top: 506px;
+}
+
 p.directorytextbtn {
     margin-left: 0px;
     font-size: 12px;
@@ -903,6 +986,13 @@ p.directorytextbtn {
   @media only screen
 and (min-width : 414px)
 and (max-width : 736px) {
+
+.fixed-action-btn.horizontal {
+    padding: 0 0 0 15px;
+    bottom: 60px;
+    left: 30px;
+    top: 506px;
+}
 
 p.directorytextbtn {
     margin-left: 0px !important;
@@ -959,6 +1049,13 @@ p.directorytextbtn {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px)  {
+
+.fixed-action-btn.horizontal {
+    padding: 0 0 0 15px;
+    bottom: 60px;
+    left: 30px;
+    top: 506px;
+}
 
 .card {
     max-height: 100% !important;
